@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: monospace;
+  }
+.green-button {
+    padding: 24px;
+    border: none;
+    background-color: greenyellow;
+  }
+  .green-button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
