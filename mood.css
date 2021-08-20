@@ -4,8 +4,9 @@
     -webkit-text-stroke-color: rgb(1, 61, 21);
   }
 .div {
-    font-size: 64px;
+    font-size: 32px;
     margin-bottom: 32px;
+    -webkit-text-stroke-color: rgb(1, 61, 21);
   }
   .colored-button {
     padding: 24px;
