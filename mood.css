@@ -1,14 +1,25 @@
-body {
-    text-align: center;
-    font-family: monospace;
+.header {
+    margin-top: 64px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(1, 61, 21);
   }
-.green-button {
+.div {
+    font-size: 64px;
+    margin-bottom: 32px;
+  }
+  .colored-button {
     padding: 24px;
     border: none;
-    background-color: greenyellow;
+    background-color: rgb(81, 255, 133)
   }
-  .green-button:hover {
-    background-color: blue;
+.colored-button:hover {
+    background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
+  }
+  body {
+    text-align: center;
+    font-family: monospace;
+    background-image: url('https://ngnl-o7.github.io/cs97-assignments/pepe-the-frog-dancing.gif');
+    background-size: cover;
   }
