@@ -6,6 +6,7 @@
 .div {
     font-size: 32px;
     margin-bottom: 32px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(1, 61, 21);
   }
   .colored-button {

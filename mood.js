@@ -1,5 +1,5 @@
 function getRandomEmojis() {
-    const emojis = ['🙂', '😍', '😂', '😢', '😡', '🥴'];
+    const emojis = ['🙂hi', '😍hi', '😂hi', '😢hi', '😡hi', '🥴hi'];
     const randomIndex = Math.floor(Math.random() * emojis.length);
     return emojis[randomIndex];
 }
@@ -14,7 +14,7 @@ const Button1 = document.getElementById('button1');
 
 Button1.addEventListener('click', () => {
   Div1.innerHTML = getRandomEmojis();
-})
+});
 
 const Div2 = document.getElementById('div2');
 
